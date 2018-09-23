@@ -10,6 +10,7 @@ nav{
 	height: 50px;
   background: rgba(0,0,0,0.8);
   position: fixed;
+  z-index: 1;
 }
 nav ul{
 	float: right;
@@ -81,7 +82,7 @@ figure{
   margin: 0;
 }
 .container-photo{
-  padding: 10em 12em;
+  padding:10em 0em 10em 10em;
   float: left;
   }
 .photo {
@@ -103,10 +104,11 @@ display: block;
 .description {
   width: 50%;
   color: #f1ebee;
-  margin-right: 10%;
-  margin-top: 14em;
+  margin-right: 10em;
+  margin-top: 13em;
   float: right;
   background: #3b40408a;
+  padding: 1em;
 }
 .contenedor label{
     font-size: 1.5em;
@@ -122,13 +124,21 @@ font-size: 1em;
 line-height: 22px;
 }
 /*portafolio*/
+.icons8-firebase {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IgogICAgIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIKICAgICB2aWV3Qm94PSIwIDAgMjUyIDI1MiIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMjUydi0yNTJoMjUydjI1MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBpZD0iTGF5ZXJfMSI+PHBhdGggZD0iTTQyLDE5NC4yNWw3OS45Nzg1LC0xNDkuOTYxYzEuNjg1MjUsLTMuMTYwNSA2LjI0MjI1LC0zLjEwMjc1IDcuODQzNSwwLjEwNWwyNy42NzgsNTUuMzU2eiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjxwYXRoIGQ9Ik00MiwxOTQuMjA4bDI5LjExNjUsLTE3OS41NDQ3NWMwLjc2MTI1LC00LjY5ODc1IDcuMDcxNzUsLTUuNzE3MjUgOS4yNzY3NSwtMS40OTYyNWw1Ni4xMDY3NSwxMDcuNTQxeiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjxwYXRoIGQ9Ik00Mi4wNDIsMTk0LjE3NjVsMS4wNSwtMC44MjQyNWw5Mi4wMjcyNSwtNzUuMjkwMjVsLTI1Ljk1NiwtNDkuNzQ5eiIgZmlsbD0iI2NjY2NjYyI+PC9wYXRoPjxwYXRoIGQ9Ik00MiwxOTQuMjVsMTM5Ljk5NjUsLTEzNC45OTMyNWMyLjkzNDc1LC0yLjgyOTc1IDcuODMzLC0xLjE2MDI1IDguNDMxNSwyLjg3MTc1bDE5LjU3MiwxMzIuMTIxNWwtNzguNzUsNDUuOTAwNzVjLTMuMTk3MjUsMS43OTU1IC03LjA5OCwxLjc5NTUgLTEwLjI5NTI1LDB6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+PC9nPjwvZz48L3N2Zz4=') 50% 50% no-repeat;
+  background-size: 100%;
+}
 .we-focus{
-	width: 90%;
-	height: auto;
-	margin-left: 5%;
-	margin-right: 5%;
-  overflow: visible;  
+  width: 86%;
+  height: auto;
+  margin-left: 6%;
+  margin-right: 7%;
   margin-top: 10px;
+  overflow: visible;
+  margin-top: 20px;
 }
 .container{
 	height: auto;
@@ -158,6 +168,7 @@ line-height: 22px;
 .atajos-focus-grids{
 	padding-right: 15px;
   padding-left: 15px; 
+  margin-top: 10px;
 	width: 30%;
 }
 .focus-border{
@@ -177,7 +188,7 @@ line-height: 22px;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
-  padding: 10px 0px;
+  padding: 18px 0px;
 }
 #img-p1{
   background: url(../img/dd.png) no-repeat center;
@@ -194,17 +205,17 @@ line-height: 22px;
 .focus-image{
   text-align: center;
   width: 100%;
-  height: 200px;
+  height: 350px;
 }
 .focus-image span{
   width: 100%;
-  height: 200px;
+  height: 350px;
 }
 .icon-bookmark, .icon-heart {
-  color: #FFEB3B;
   text-align: center;
   display: block;
-  background: #272222cc;
+  color: #fff0; 
+  background: none;
 }
 .icon-heart {
   background: none;
@@ -217,23 +228,24 @@ line-height: 22px;
   margin-left: -3em;
   line-height: 20px;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 7em;
   text-transform: uppercase;
 }
 .icon-bookmark ul li, .icon-heart ul li{
   list-style: none;
 }
 .icon-bookmark:hover {
- color: #fff;
  cursor: pointer;
- background: none;
+ color: #FFEB3B;
+ background: #272222cc;
   }
 /*...................................................................contact*/
 .contacto{
   width: 100%;
   height: auto;
   background: #ECF0F1;
-  margin-top: 2em;    
+  margin-top: 2em;  
+  padding: 2em 0em;  
   float: right;  
   }  
   .contacto form{
@@ -258,8 +270,13 @@ line-height: 22px;
     padding-top: .8em;      
   }
   .contacto p{
-    padding: 1em 0em 0em .5em;
+    padding: 1em 1em 0em 0em;
     display: inline-block;
+  }
+  .contacto p a {
+    text-decoration: none;
+    color: #E91E63;
+    margin: 0px 5px
   }
   .contacto input{
       border: .5px solid #e0e0e0;
@@ -269,7 +286,7 @@ line-height: 22px;
       outline: none;  
   }
   .contacto input:focus{
-      border:  .5px solid #EC0044;
+      border:  .5px solid #E91E63;
       transition: all .2s ease-in-out;
        margin-right: .10em;
   }
@@ -296,25 +313,36 @@ line-height: 22px;
     background: #E91E63;    
   }
   /*...........skill*/  
-  .container-skill{
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  .container-skill, .container-skill-contact{
+    margin: 8px;
+    padding: 20px;
     text-align: center;
+    float: left;
+    border-radius: 100%;
+    background: #54515466;
+    cursor: pointer;
   }
-  .list-skill-tech{
-    display: block;
+  .container-skill-contact{
+    margin: 15px 0px;
+    padding: 0px;
+    background: none;
   }
-  
+  .container-skill:hover{
+    background: #E91E63;
+  }
+  .list-skill-tech h3{
+    width: 100%;
+    padding: .5em 0em 1.5em;
+  }
 #list-social{
   display: block;
-  height: 150px;
-  margin-left: 25%;
+  height: 180px;
+  margin-left: 40%;
 }
   .hexagon {
-    width: 100px;
+    width: 80px;
     float: left;
+    padding: .5em 0em;
     margin-right: 3px;
     background: #E91E63;
     position: relative;
@@ -324,12 +352,14 @@ line-height: 22px;
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-.hexagon i, .hexagon a {
+.hexagon i, .hexagon a, .icon-tech i, .icon-tech a {
   font-size: 36px;
   color: white;
-  line-height: 55px;
   z-index: 1;
   text-decoration: none;
+}
+.hexagon a{
+  font-size: 20px;
 }
 .hexagon:before {
   content:"";
@@ -338,10 +368,9 @@ line-height: 22px;
   left:0;
   width:0;
   height:0;
-  border-left:50px solid transparent;
-  border-right:50px solid transparent;
+  border-left:40px solid transparent;
+  border-right:40px solid transparent;
   border-bottom: 25px solid  #E91E63;
-  /*transition*/
   -webkit-transition:all 0.3s;
   -moz-transition:all 0.3s;
   -o-transition:all 0.3s;
@@ -355,8 +384,8 @@ line-height: 22px;
   left:0;
   width:0;
   height:0;
-  border-left:50px solid transparent;
-  border-right:50px solid transparent;
+  border-left:40px solid transparent;
+  border-right:40px solid transparent;
   border-top:25px solid  #E91E63;
   /*transition*/
   -webkit-transition:all 0.3s;
@@ -364,9 +393,9 @@ line-height: 22px;
   -o-transition:all 0.3s;
   transition:all 0.3s;
 }
-.hexagon i img, .hexagon a img{
-  width: 50px;
-  height: 40px;
+.icon-skill{
+  width: 36px;
+  height: 36px;
 }
 .hexagon:hover {
   background:#000;
@@ -379,12 +408,16 @@ line-height: 22px;
 .hexagon:hover:after {
   border-top-color: #000;
 }
-.list-skill-tech {
+.list-skill-tech{
   display: inline-block;
-  margin-top: 2em;
-  width: 80%;
-  margin-left: 15%;
-  margin-right: 5%;
+  width: 40%;
+  float: left;
+  margin: 1em 0em 2em 7%;
+}
+.list-skill-contact{
+  margin-top: 1em;
+  width: 40%;
+  float: left;
 }
 #content-cv{
   width: 100%;
@@ -440,16 +473,22 @@ footer p a {
 .autogen_class_views_embeds_new_show .mobile_overlay {
   display: none !important;
 }
+.icon-location p, .icon-phone p, .icon-mail2 p{
+  padding: 1em 1.2em 0em 1em !important;
+}
 @media (max-width: 1600px){
-    .atajos-focus-grids, .description-focus-grids{
-      float: left;
-      
-    }
-    .container-photo{
-      padding: 10em 5em;
-      float: left;
-    }
-    }
+  .atajos-focus-grids, .description-focus-grids{
+    float: left;      
+  }
+}
+@media (max-width: 1200px){
+  .description {
+    width: 45%;
+    margin-right: 6em;
+    margin-top: 11em;
+  }
+
+}
 @media (max-width: 992px){
   .container-photo{
     padding: 10em 2em;
@@ -465,22 +504,26 @@ footer p a {
       margin-right: 0%;
       margin-left: 0%;
       padding: 40px 0px;  
-      width: 95%;      
+      width: 90%;      
     }
     .atajos-focus-grids, .description-focus-grids{
-      width: 100%;
+      width: 90%;
+      margin: 5%;
       float: none;
     }
-    .list-skill-tech {
-      margin-left: 15%;
+    #list-social {
+      margin-left: 28%;
     }
   }    
 @media (max-width:768px){
+  .hexagon {
+    margin-bottom: 20px;
+  }
     body header nav ul {
         display: none;
         height: auto;
-        width: 22em;
-        background: rgba(0,0,0,0.6);
+        width: 15em;
+        background: rgba(0, 0, 0, 0.94);
         margin-left: 0%;
         padding-bottom: 100%;
         margin-top: 13px;
@@ -518,10 +561,18 @@ footer p a {
      padding: 1em;
      text-align: center;
   }
+  .list-skill-tech {
+    width: 80%;
+    margin: 1em 0em 2em 10%
+  }
 }
 @media (max-width:480px){
     .contenedor{
         height: 500px;
+    }
+    #img-p2 {
+      background: url(../img/movile.png) no-repeat center;
+      background-size: cover;
     }
     .slide{
         height: 500px;
@@ -541,29 +592,32 @@ footer p a {
     .description {
     width: 100%;
     margin: 0em;
-    padding: 0px 0px 5px;
-    text-align: center;
+    padding: 0px 0px 0px;
+    text-align-last: center;
     }
     .contenedor p {
         margin-left: 0px;
-        padding: 1em;
+        padding: 0em;
     }
     .contenedor label{
         font-size: 16px;
     }
-    .list-skill-tech {
-      margin-right: 0%;
-      margin-left: 4%;
-      width: 100%;
-    }
     #list-social{
-      margin-left: 12%;
-      width: 85%;
+      margin-right: 25%;
+      margin-left: 25%;
+      width: 80%;
+      padding-bottom: 3em;
     }
     #content-cv {
      margin-top: 2em;
     }
     .we-focus {
-      padding: 20px 0px;
+      padding: 0px 0px;
+    }
+    .hexagon {
+      margin-bottom: 20px;
+    }
+    .contacto{
+      padding: 0px;
     }
   }
