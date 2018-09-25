@@ -183,6 +183,13 @@ line-height: 22px;
 .focus-layout:hover{
 	box-shadow: 0px 2px 10px 1px #c5c5c5;
 }
+.icons8-npm {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IgogICAgIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIKICAgICB2aWV3Qm94PSIwIDAgMjUyIDI1MiIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMjUydi0yNTJoMjUydjI1MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48Zz48ZyBpZD0ic3VyZmFjZTEiPjxwYXRoIGQ9Ik0wLDc4Ljc1aDI1MnY4OS4yNWgtMTI2djE1Ljc1aC01Ny43NXYtMTUuNzVoLTY4LjI1eiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPjxwYXRoIGQ9Ik0xNS43NSwxNTIuMjVoMjYuMjV2LTQyaDE1Ljc1djQyaDEwLjV2LTU3Ljc1aC01Mi41eiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjxwYXRoIGQ9Ik04NCw5NC41djczLjVoMjYuMjV2LTE1Ljc1aDI2LjI1di01Ny43NXpNMTI2LDEzNi41aC0xNS43NXYtMjYuMjVoMTUuNzV6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+PHBhdGggZD0iTTE1Mi4yNSw5NC41djU3Ljc1aDI2LjI1di00MmgxNS43NXY0MmgxNS43NXYtNDJoMTUuNzV2NDJoMTAuNXYtNTcuNzV6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+PC9nPjwvZz48L2c+PC9zdmc+') 50% 50% no-repeat;
+  background-size: 100%;
+}
 .focus-layout h4{
   color: #000;
   font-size: 18px;
@@ -529,15 +536,15 @@ footer p a {
         display: none;
         height: auto;
         width: 15em;
-        background: rgba(0, 0, 0, 0.94);
+        background: rgba(0, 0, 0, 0.98);
         margin-left: 0%;
-        padding-bottom: 100%;
+        padding-bottom: 40%;
         margin-top: 13px;
         position: fixed;
     }
      body header nav ul li{
         width: 100%;
-        border-bottom: .5px solid rgba(0,0,0,0.3);
+        border-bottom: .5px solid rgba(253, 247, 247, 0.3);
         margin-left: -2em;
      }	
     .menu-setting-user{
