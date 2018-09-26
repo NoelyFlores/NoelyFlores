@@ -107,7 +107,7 @@ display: block;
   margin-right: 10em;
   margin-top: 13em;
   float: right;
-  background: #3b40408a;
+  background: #1b1e1e9e;
   padding: 1em;
 }
 .contenedor label{
@@ -119,8 +119,7 @@ display: block;
     color:#FFEB3B;
 }
 .contenedor p{
-margin-left: 20px;
-font-size: 1em;
+font-size: 1.1em;
 line-height: 22px;
 }
 /*portafolio*/
@@ -132,12 +131,10 @@ line-height: 22px;
   background-size: 100%;
 }
 .we-focus{
-  width: 86%;
+  width: 97%;
   height: auto;
-  margin-left: 6%;
-  margin-right: 7%;
-  margin-top: 10px;
-  overflow: visible;
+  margin-left: 3%;
+  overflow: hidden;
   margin-top: 20px;
 }
 .container{
@@ -166,10 +163,9 @@ line-height: 22px;
     margin: 10px 0;
 }
 .atajos-focus-grids{
-	padding-right: 15px;
-  padding-left: 15px; 
+  padding-left: 5px;
   margin-top: 10px;
-	width: 30%;
+  width: 32%;
 }
 .focus-border{
 	border: 1px solid #e7eaed;
@@ -177,8 +173,6 @@ line-height: 22px;
 .focus-layout{
   margin: 10px;
   cursor: pointer;
- /*  padding: 20px 20px 20px 20px;
-  background:#e72777; */
 }
 .focus-layout:hover{
 	box-shadow: 0px 2px 10px 1px #c5c5c5;
@@ -195,19 +189,23 @@ line-height: 22px;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
-  padding: 18px 0px 0px;
+  padding: 18px 0px 18px;
+  background: #E91E63;
 }
 #img-p1{
   background: url(../img/dd.png) no-repeat center;
   background-size: contain;
+  margin-bottom: 20px;
 }
 #img-p2{  
   background: url(../img/mm1.png) no-repeat center;
   background-size: contain;
+  margin-bottom: 20px;
 }
 #img-p3{  
   background: url(../img/ww.png) no-repeat center;  
   background-size: contain;
+  margin-bottom: 20px;
 }
 .focus-image{
   text-align: center;
@@ -216,7 +214,7 @@ line-height: 22px;
 }
 .focus-image span{
   width: 100%;
-  height: 250px;
+  height: 305px;
 }
 .icon-bookmark, .icon-heart {
   text-align: center;
@@ -235,7 +233,7 @@ line-height: 22px;
   margin-left: -3em;
   line-height: 20px;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 4em;
   text-transform: uppercase;
 }
 .icon-bookmark ul li, .icon-heart ul li{
@@ -257,12 +255,12 @@ line-height: 22px;
   }  
   .contacto form{
     height: auto;
-    margin-left: 7%;
+    margin-left: 3%;
     margin-right: 7%;
     padding: 1em 0em;
   } 
   .portafolio{
-    margin-left: 7%;
+    margin-left: 3%;
     padding: 1em 0em 0em;
   }
   #proyectos{
@@ -310,19 +308,18 @@ line-height: 22px;
     margin-bottom: 0%;
   }
   .button-redirec span{
-    width: 50%;
-    background: #000;
-    color: #fff;
+    width: 45%;
     float: left;
     text-align: center;
-    padding: .5em 0em;
   }
   .button-redirec span a{
     cursor: pointer;
     text-decoration: none;
     color: #fff;
+    padding: .5em 2em;
+    background: #000;
   }
-  .button-redirec span:hover{
+  .button-redirec span a:hover{
     background: #E91E63;    
   }
   /*...........skill*/  
@@ -498,13 +495,23 @@ footer p a {
   .description {
     width: 45%;
     margin-right: 6em;
-    margin-top: 11em;
+    margin-top: 10em;
   }
 
 }
 @media (max-width: 992px){
+  .contacto form {
+    margin-left: 7%;
+  }
+  .portafolio{
+    margin-left: 7%;
+  }
+  .description {
+    margin-right: 3em;
+    margin-top: 8em;
+}
   .container-photo{
-    padding: 10em 2em;
+    padding: 10em 3em;
     float: left;
     }
     .container {
@@ -517,16 +524,19 @@ footer p a {
       margin-right: 0%;
       margin-left: 0%;
       padding: 40px 0px;  
-      width: 90%;      
+      width: 100%;      
     }
     .atajos-focus-grids, .description-focus-grids{
       width: 90%;
       margin: 5%;
       float: none;
     }
-    #list-social {
-      margin-left: 28%;
+    #list-social{
+    margin-right: 25%;
+    margin-left: 28%;
+    width: 80%;
     }
+    
   }    
 @media (max-width:768px){
   .hexagon {
@@ -557,10 +567,9 @@ footer p a {
         display: block;
     }
     .container-photo{
-        padding: 2em 10em;
-        margin-left: 10%;
-        margin-top: 5em;
-        padding-top: 2em;
+      padding: 0em 0em 0em 32%;
+      margin-top: 5em;
+      margin-right: 100%;
       }
     .photo {
      width: 150px  !important;
@@ -603,20 +612,15 @@ footer p a {
     margin: 0em;
     padding: 0px 0px 0px;
     text-align-last: center;
+    background: #40434275;
     }
-    .contenedor p {
-        margin-left: 0px;
-        padding: 0em;
+    .contenedor p {     
+    font-size: 1em;
     }
     .contenedor label{
         font-size: 16px;
     }
-    #list-social{
-      margin-right: 25%;
-      margin-left: 25%;
-      width: 80%;
-      padding-bottom: 3em;
-    }
+    
     #content-cv {
      margin-top: 2em;
     }
@@ -628,5 +632,16 @@ footer p a {
     }
     .contacto{
       padding: 0px;
+    }
+    .button-redirec span {
+      width: 43%;
+    }
+    #list-social{
+      margin-right: 25%;
+      margin-left: 10%;
+      width: 82%;
+    }
+    .atajos-focus-grids {
+      padding-left: 0px;
     }
   }
