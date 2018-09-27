@@ -73,8 +73,8 @@ nav label{
 /*slider*/
 .slide{
   width: 100%;
-  height: 550px;  
-  background: url(../img/portada03.jpg) no-repeat;
+  height: 700px;
+  background: url(../img/portada03.jpg) no-repeat center;
   box-shadow: 10px 0px 0px #555;
   background-size: cover;
 }
@@ -82,46 +82,37 @@ figure{
   margin: 0;
 }
 .container-photo{
-  padding:10em 0em 10em 10em;
+  padding: 10em 0em 10em 10em;
   float: left;
   }
 .photo {
-    width: 200px  !important;
-    height: 200px !important;
-    border-radius: 100%;
-    border: .5px solid #fff;
-    padding: 1em;
+  width: 300px !important;
+  height: 300px !important;
+  border-radius: 100%;
+  border: .5px solid #fff;
+  padding: 1em;
   }
-.contenedor{
-width: 100%;
-height: 550px;
-padding: 0em 0em;
-background:rgba(0, 0, 0, 0.576562);
-text-align: left;
-color: #fff;
-display: block;
-}
+.contenedor{width: 100%;height: 700px;padding: 0em 0em;background:rgba(0, 0, 0, 0.576562);text-align: left;color: #fff;display: block;}
 .description {
-  width: 50%;
+  width: 40%;
   color: #f1ebee;
-  margin-right: 10em;
-  margin-top: 13em;
+  margin-right: 7em;
+  margin-top: 9em;
   float: right;
   background: #1b1e1e9e;
-  padding: 1em;
+  padding: 2em 1em;
 }
 .contenedor label{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     line-height: 2em;
-    letter-spacing: 1px;
     text-transform: uppercase;
     color:#FFEB3B;
 }
-.contenedor p{
-font-size: 1.1em;
-line-height: 22px;
+.contenedor h3 {
+  line-height: 2em;
 }
+.contenedor p{font-size: 1.1em;line-height: 22px;text-align: justify;}
 /*portafolio*/
 .icons8-firebase {
   display: inline-block;
@@ -131,11 +122,15 @@ line-height: 22px;
   background-size: 100%;
 }
 .we-focus{
-  width: 97%;
+  width: 86%;
   height: auto;
-  margin-left: 3%;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   margin-top: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
 }
 .container{
 	height: auto;
@@ -150,8 +145,8 @@ line-height: 22px;
 .description-focus-grids{
 	width: 46%;
 	padding-right: 15px;
-    padding-left: 15px; 
-    margin-top: 42px;
+  padding-left: 15px; 
+  margin-top: 42px;
 }
 .description-focus-grids h3{
 	text-align: left;
@@ -163,9 +158,9 @@ line-height: 22px;
     margin: 10px 0;
 }
 .atajos-focus-grids{
-  padding-left: 5px;
   margin-top: 10px;
   width: 32%;
+  margin: auto;
 }
 .focus-border{
 	border: 1px solid #e7eaed;
@@ -174,7 +169,7 @@ line-height: 22px;
   margin: 10px;
   cursor: pointer;
 }
-.focus-layout:hover{
+.focus-border:hover{
 	box-shadow: 0px 2px 10px 1px #c5c5c5;
 }
 .icons8-npm {
@@ -186,11 +181,9 @@ line-height: 22px;
 }
 .focus-layout h4{
   color: #000;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 25px;
   text-align: center;
-  padding: 18px 0px 18px;
-  background: #E91E63;
+  padding: 10px 0px 0px;
 }
 #img-p1{
   background: url(../img/dd.png) no-repeat center;
@@ -249,39 +242,39 @@ line-height: 22px;
   width: 100%;
   height: auto;
   background: #ECF0F1;
-  margin-top: 2em;  
-  padding: 2em 0em;  
-  float: right;  
+  margin-top: 2em;
+  padding: 2em 0em;
+  float: right;
   }  
   .contacto form{
     height: auto;
-    margin-left: 3%;
+    margin-left: 7%;
     margin-right: 7%;
     padding: 1em 0em;
   } 
   .portafolio{
-    margin-left: 3%;
-    padding: 1em 0em 0em;
+    margin-left: 7%;
+    padding: 1em;
   }
   #proyectos{
     background: #fff;
+    margin-top: 0em;
   }
   .contacto label{
-    font-size: 1.5em;
-    text-align: left;
-    font-weight: bold;     
-    border-bottom: 2px solid#FFEB3B;
-    padding-bottom: .3em;
-    padding-top: .8em;      
+      font-size: 2.56rem;
+      text-align: left;
+      font-weight: bold;
+      border-bottom: 2px solid#FFEB3B;
+      padding-top: .8em;
   }
   .contacto p{
-    padding: 1em 1em 0em 0em;
+    padding: 1em 3em 1em 0em;
     display: inline-block;
   }
   #descrition-proyect {
-  padding: 1em 1em 0em 0em;
+  padding: 1em 1em 0em 1em;
   display: inline-block;
-  text-align: center;
+  text-align: justify;
   padding-bottom: 1em;
 }
   .contacto p a {
@@ -306,11 +299,16 @@ line-height: 22px;
     width: 100%;
     height: 35px;
     margin-bottom: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
   }
   .button-redirec span{
-    width: 45%;
+    /* width: 50%; */
     float: left;
     text-align: center;
+    display: flex;
+    /* margin-left: 2em; */
   }
   .button-redirec span a{
     cursor: pointer;
@@ -318,6 +316,7 @@ line-height: 22px;
     color: #fff;
     padding: .5em 2em;
     background: #000;
+    margin-right: 5px;
   }
   .button-redirec span a:hover{
     background: #E91E63;    
@@ -333,22 +332,27 @@ line-height: 22px;
     cursor: pointer;
   }
   .box-container-skill{
-    margin: 8px;
+    margin: 8px auto;
     text-align: center;
     float: left;
   }
-  .box-container-skill p {
+  .box-container-skill-soft{
+    margin: 8px auto;
+    text-align: center;
+    float: right;
+  }
+  .box-container-skill p, .box-container-skill-soft p {
     padding: 0em !important;
   }
   .container-skill-icon{
     margin: 8px;
-    padding: 20px;
+    padding: 22px;
     text-align: center;
     border-radius: 100%;
     background: #54515466;
     cursor: pointer;
     width: 36px;
-    height: 36px;
+    height: 36px;    
   }
   .container-skill-contact{
     margin: 15px 0px;
@@ -363,11 +367,21 @@ line-height: 22px;
   }
   .list-skill-tech h3{
     width: 100%;
-    padding: .5em 0em 1.5em;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  #box-soft h3{
+    padding-bottom: 1em;
+    /* margin-left: 20px; */
+  }
+  #box-tech h3{
+    padding-bottom: 1em;
+    /* margin-left: -20px; */
   }
 #list-social{
   display: block;
-  height: 180px;
+  height: 80px;
   margin-left: 40%;
 }
   .hexagon {
@@ -391,6 +405,7 @@ line-height: 22px;
 }
 .hexagon a{
   font-size: 20px;
+  padding: 20px;
 }
 .hexagon:before {
   content:"";
@@ -439,11 +454,28 @@ line-height: 22px;
 .hexagon:hover:after {
   border-top-color: #000;
 }
+.box-container-icon{
+  margin: 0em 7% 1em 7%;
+  width: 86%;
+  display: flex;
+  justify-content: center;
+}
+.box-container-icon-soft{
+  text-align: right;
+  display: flow-root;
+  justify-content: center;
+}
 .list-skill-tech{
   display: inline-block;
-  width: 40%;
   float: left;
-  margin: 1em 0em 2em 7%;
+}
+#box-tech{
+  width: 45%;
+  margin: 1em auto 1em 0em;
+}
+#box-soft{
+  width: 45%;
+  margin: 1em 0em 2em auto;
 }
 .list-skill-contact{
   margin-top: 1em;
@@ -471,6 +503,7 @@ line-height: 22px;
 .contact{
   padding: .5em;
   margin-top: 20px;
+  text-align: center;
 }
 .contact span{
   display: block;
@@ -485,17 +518,14 @@ section{
   height: auto;
 }
 footer {
-  float: bottom;
   background: #222222;
   text-align: center;
   color: rgb(153,160,162);
-  padding: 7px 0;
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  display: inline-block;
 }
 footer p{
-  margin: 0 0 10px;
+  padding: 1em;
 }
 footer p a {
   color: #E91E63;
@@ -507,6 +537,19 @@ footer p a {
 .icon-location p, .icon-phone p, .icon-mail2 p{
   padding: 1em 1.2em 0em 1em !important;
 }
+.box-container-pdf{
+  padding: 1em;
+  margin: 10px 10%;
+  width: 80%;
+  border: 1px solid #afb1b4;
+  overflow: hidden;
+}
+.box-container-pdf embed{
+  top:0;
+  left: 0;
+  width: 100%;
+}
+  
 @media (max-width: 1600px){
   .atajos-focus-grids, .description-focus-grids{
     float: left;      
@@ -518,7 +561,13 @@ footer p a {
     margin-right: 6em;
     margin-top: 10em;
   }
-
+  .container-photo {
+    padding: 13em 0em 10em 7em;
+  }
+  .photo {
+    width: 250px !important;
+    height: 250px !important;
+  }
 }
 @media (max-width: 992px){
   .contacto form {
@@ -526,13 +575,14 @@ footer p a {
   }
   .portafolio{
     margin-left: 7%;
+    padding: 0em 1em;
   }
   .description {
-    margin-right: 3em;
+    margin-right: 4em;
     margin-top: 8em;
 }
   .container-photo{
-    padding: 10em 3em;
+    padding: 13em 0em 0em 4em;
     float: left;
     }
     .container {
@@ -544,12 +594,13 @@ footer p a {
       height: auto;
       margin-right: 0%;
       margin-left: 0%;
-      padding: 40px 0px;  
-      width: 100%;      
+      /* padding: 40px 0px; */
+      width: 100%;
+      display: block;
     }
     .atajos-focus-grids, .description-focus-grids{
-      width: 90%;
-      margin: 5%;
+      width: 86%;
+      margin: 5% 7%;
       float: none;
     }
     #list-social{
@@ -557,7 +608,20 @@ footer p a {
     margin-left: 28%;
     width: 80%;
     }
-    
+    .photo {
+      width: 200px !important;
+      height: 200px !important;
+    }
+    .focus-layout h4 {
+      padding: 10px 0px 10px;
+     background: #E91E63;
+    }
+    .contacto p {
+      padding: 1em 5em 0em 0em;
+  }
+  .container-skill-icon {
+    padding: 25px;
+  }
   }    
 @media (max-width:768px){
   .hexagon {
@@ -599,22 +663,38 @@ footer p a {
     .description {
      width: 80%;
      float: none;
-     margin-left: 3em;
+     margin-left: 2em;
      margin-top: 0em;
      padding: 1em;
      text-align: center;
   }
   .list-skill-tech {
-    width: 80%;
+    width: 100% !important;
     margin: 1em 0em 2em 20%
+  }
+  .contacto p {
+    padding: 1em 3em 0em 0em;
+    text-align: justify;
+  }
+  .box-container-icon {
+    display: inline-block;
+  }
+  .box-container-skill-soft {
+    float: left;
+  }
+  #box-tech h3, #box-soft h3{
+    margin-left: 0px;
+  }
+  .list-skill-tech h3 {
+    text-align: left;
   }
 }
 @media (max-width:480px){
     .contenedor{
-        height: 500px;
+        height: 650px;
     }
     .slide{
-        height: 500px;
+        height: 650px;
     }
   .container-photo{
     padding: 0em 0em;      
@@ -626,20 +706,21 @@ footer p a {
       width: 100px !important;
       height: 100px !important;
       padding: 1em;
-      margin: 5em 0em 1em;
+      margin: 4em 0em 1em;
     }   
     .description {
     width: 100%;
     margin: 0em;
-    padding: 0px 0px 0px;
+    padding: 0px 0px 10px;
     text-align-last: center;
     background: #40434275;
     }
-    .contenedor p {     
-    font-size: 1em;
+    .contenedor p {
+    font-size: 1.05em;
+    padding: 0em 1em;
     }
     .contenedor label{
-        font-size: 16px;
+        font-size: 20px;
     }
     
     #content-cv {
@@ -655,14 +736,39 @@ footer p a {
       padding: 0px;
     }
     .button-redirec span {
-      width: 43%;
-    }
+     margin-left: 2px solid #fff;
+  }
     #list-social{
       margin-right: 25%;
       margin-left: 10%;
+      margin-bottom: 25px;
       width: 82%;
     }
     .atajos-focus-grids {
       padding-left: 0px;
     }
+    .box-container-pdf{
+      padding: 1em 0em;
+      margin: 10px 0%;
+      width: 100%;
+    }
+    .box-container-pdf embed{
+      width: 100%;
+      height: 420px;
+    }
+    .contacto p {
+      padding: 1em 1.5em 1em 0em;      
+    }
+  .contacto label {
+    font-size: 1.86rem;
   }
+  .focus-layout h4, .list-skill-tech h3 {
+    font-size: 20px;
+  }
+  .box-container-icon {
+    margin: 0em 7% 1em 7%;
+  }
+  #proyectos {
+    margin-top: 2em;
+  }
+}
