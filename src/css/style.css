@@ -254,7 +254,7 @@ figure{
   } 
   .portafolio{
     margin-left: 7%;
-    padding: 1em;
+    padding: 1em 0em 0em;
   }
   #proyectos{
     background: #fff;
@@ -691,10 +691,10 @@ footer p a {
 }
 @media (max-width:480px){
     .contenedor{
-        height: 650px;
+        height: 670px;
     }
     .slide{
-        height: 650px;
+        height: 670px;
     }
   .container-photo{
     padding: 0em 0em;      
@@ -717,7 +717,7 @@ footer p a {
     }
     .contenedor p {
     font-size: 1.05em;
-    padding: 0em 1em;
+    padding: 0em 1.5em;
     }
     .contenedor label{
         font-size: 20px;
@@ -728,6 +728,7 @@ footer p a {
     }
     .we-focus {
       padding: 0px 0px;
+      margin-top: 0em;
     }
     .hexagon {
       margin-bottom: 20px;
