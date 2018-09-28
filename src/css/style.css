@@ -279,7 +279,7 @@ figure{
 }
   .contacto p a {
     text-decoration: none;
-    color: #E91E63;
+    color: #44D7A8;
     margin: 0px 5px
   }
   .contacto input{
@@ -290,7 +290,7 @@ figure{
       outline: none;  
   }
   .contacto input:focus{
-      border:  .5px solid #E91E63;
+      border:  .5px solid #44D7A8;
       transition: all .2s ease-in-out;
        margin-right: .10em;
   }
@@ -319,7 +319,7 @@ figure{
     margin-right: 5px;
   }
   .button-redirec span a:hover{
-    background: #E91E63;    
+    background: #44D7A8;    
   }
   /*...........skill*/  
   .container-skill-contact{
@@ -349,7 +349,7 @@ figure{
     padding: 22px;
     text-align: center;
     border-radius: 100%;
-    background: #54515466;
+    background: #66636670;;
     cursor: pointer;
     width: 36px;
     height: 36px;    
@@ -360,7 +360,7 @@ figure{
     background: none;
   }
  .container-skill-icon:hover{
-    background: #E91E63;
+    background: #44D7A8;
   }
   .fa-vuejs, .icon-bold{
     font-size: 36px;
@@ -389,7 +389,7 @@ figure{
     float: left;
     padding: .5em 0em;
     margin-right: 3px;
-    background: #E91E63;
+    background: #44D7A8;
     position: relative;
     margin-bottom: 50px;
     -webkit-transition: all 0.3s;
@@ -416,7 +416,7 @@ figure{
   height:0;
   border-left:40px solid transparent;
   border-right:40px solid transparent;
-  border-bottom: 25px solid  #E91E63;
+  border-bottom: 25px solid  #44D7A8;
   -webkit-transition:all 0.3s;
   -moz-transition:all 0.3s;
   -o-transition:all 0.3s;
@@ -432,7 +432,7 @@ figure{
   height:0;
   border-left:40px solid transparent;
   border-right:40px solid transparent;
-  border-top:25px solid  #E91E63;
+  border-top:25px solid  #44D7A8;
   /*transition*/
   -webkit-transition:all 0.3s;
   -moz-transition:all 0.3s;
@@ -528,7 +528,7 @@ footer p{
   padding: 1em;
 }
 footer p a {
-  color: #E91E63;
+  color: #44D7A8;
   text-decoration: none;
 }
 .autogen_class_views_embeds_new_show .mobile_overlay {
@@ -614,7 +614,7 @@ footer p a {
     }
     .focus-layout h4 {
       padding: 10px 0px 10px;
-     background: #E91E63;
+     background: #44D7A8;
     }
     .contacto p {
       padding: 1em 5em 0em 0em;
