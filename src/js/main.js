@@ -1,6 +1,7 @@
 
+
+let menuView = false;
 const event_control = () => {
-  let menuView = false;
   document.getElementById('view_menu_vertical').addEventListener('click', () => {
     if (menuView === false) {
       document.getElementById('menu-principal').style.display = 'block';
