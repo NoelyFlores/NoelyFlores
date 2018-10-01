@@ -85,12 +85,24 @@ figure{
   padding: 10em 0em 10em 10em;
   float: left;
   }
-.photo {
+.line-margin{
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 1em;
+  }
+.box-container-photo{
   width: 300px !important;
   height: 300px !important;
   border-radius: 100%;
-  border: .5px solid #fff;
-  padding: 1em;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.box-container-photo img {
+  width: 120%;
+  border-radius: 100%;
   }
 .contenedor{width: 100%;height: 700px;padding: 0em 0em;background:rgba(0, 0, 0, 0.576562);text-align: left;color: #fff;display: block;}
 .description {
@@ -99,7 +111,8 @@ figure{
   margin-right: 7em;
   margin-top: 9em;
   float: right;
-  background: #1b1e1e9e;
+  background: #acb0b021;
+  border-radius: 2em;
   padding: 2em 1em;
 }
 .contenedor label{
@@ -127,7 +140,7 @@ figure{
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 3em;
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
@@ -246,6 +259,10 @@ figure{
   padding: 2em 0em;
   float: right;
   }  
+  #contacto{
+    background: url(../img/footer.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
   .contacto form{
     height: auto;
     margin-left: 7%;
@@ -345,14 +362,14 @@ figure{
     padding: 0em !important;
   }
   .container-skill-icon{
-    margin: 8px;
-    padding: 22px;
+    margin: 30px;
+    padding: 30px;
     text-align: center;
     border-radius: 100%;
-    background: #66636670;;
+    background: #66636670;
     cursor: pointer;
     width: 36px;
-    height: 36px;    
+    height: 36px;
   }
   .container-skill-contact{
     margin: 15px 0px;
@@ -470,7 +487,7 @@ figure{
   float: left;
 }
 #box-tech{
-  width: 45%;
+  width: 100%;
   margin: 1em auto 1em 0em;
 }
 #box-soft{
@@ -502,16 +519,19 @@ figure{
 }
 .contact{
   padding: .5em;
-  margin-top: 20px;
+  margin-top: 3em;
   text-align: center;
 }
 .contact span{
   display: block;
   line-height: 20px;
   font-size: 20px;
+  color: #44d7a8;
 }
 .contact span p{
-  font-size: 16px !important;
+  font-size: .8em !important;
+  color: #000;
+  font-weight: bold;
 
 }
 section{
@@ -539,7 +559,7 @@ footer p a {
 }
 .box-container-pdf{
   padding: 1em;
-  margin: 10px 10%;
+  margin: 3em 10% 10px;
   width: 80%;
   border: 1px solid #afb1b4;
   overflow: hidden;
@@ -549,7 +569,69 @@ footer p a {
   left: 0;
   width: 100%;
 }
-  
+/*nuevo*/
+.choose {
+  background: #44D7A8;
+  padding: 4em 0;
+}
+#soft{
+  background: #44d7a8;
+  padding: 0em;
+}
+.container-new {
+  padding-right: 7%;
+  padding-left: 7%;
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+  content: " ";
+}
+.agileits-heading {
+  /* text-align: center; */
+  padding-bottom: -2em;
+}
+.agileits-heading h3 {
+  color: #fff;
+  font-size: 2.5em;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 800;
+  line-height: 1.1;
+  display: inline-block;
+  border-bottom: 2px solid #fce83a
+}
+.agileits-heading p {
+  font-size: 1em;
+  margin: 0;
+  display: block;
+}
+.wthree-choose-grids {
+  margin: 3em 0 0 0;
+}
+.wthree-choose-grid {
+  text-align: center;
+}
+.wthree-choose-grid i.fa {
+  color: #ffb;
+  font-size: 3.5em;
+}
+.wthree-choose-grid h5 {
+  color: #000000;
+  font-size: 1.5em;
+  margin: .5em 0;
+  font-weight: 600;
+}
+.wthree-choose-grid p {
+  color: #212121;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0em !important;
+}
+.col-md-4 {
+  width: 23%;
+  float: left;
+  padding: 0em 1%;
+}
 @media (max-width: 1600px){
   .atajos-focus-grids, .description-focus-grids{
     float: left;      
@@ -564,7 +646,11 @@ footer p a {
   .container-photo {
     padding: 13em 0em 10em 7em;
   }
-  .photo {
+  .line-margin{
+    width: 250px;
+    height: 250px;
+  }
+  .box-container-photo {
     width: 250px !important;
     height: 250px !important;
   }
@@ -608,7 +694,11 @@ footer p a {
     margin-left: 28%;
     width: 80%;
     }
-    .photo {
+    .line-margin{
+      width: 200px;
+      height: 200px;
+    }
+    .box-container-photo {
       width: 200px !important;
       height: 200px !important;
     }
@@ -621,7 +711,12 @@ footer p a {
   }
   .container-skill-icon {
     padding: 25px;
+    margin: 16px;
   }
+.col-md-4 {
+  width: 33.33333333%;
+  padding: 1em 8%;
+}
   }    
 @media (max-width:768px){
   .hexagon {
@@ -656,7 +751,11 @@ footer p a {
       margin-top: 5em;
       margin-right: 100%;
       }
-    .photo {
+      .line-margin{
+        width: 150px;
+        height: 150px;
+      }
+    .box-container-photo {
      width: 150px  !important;
      height: 150px !important;
     }
@@ -668,6 +767,9 @@ footer p a {
      padding: 1em;
      text-align: center;
   }
+  .container {
+    width: 750px;
+}
   .list-skill-tech {
     width: 100% !important;
     margin: 1em 0em 2em 20%
@@ -688,6 +790,10 @@ footer p a {
   .list-skill-tech h3 {
     text-align: left;
   }
+  .col-md-4 {
+    width: 40%;
+    padding: 1em 1em;
+  }
 }
 @media (max-width:480px){
     .contenedor{
@@ -697,23 +803,23 @@ footer p a {
         height: 670px;
     }
   .container-photo{
-    padding: 0em 0em;      
+    padding: 3.5em 0em 0em;
     margin-left: 30%;
     margin-top: 0em;
     float: none;
     }
-    .photo {
+    
+    .box-container-photo, .line-margin {
       width: 100px !important;
-      height: 100px !important;
-      padding: 1em;
-      margin: 4em 0em 1em;
-    }   
+      height: 100px !important;      
+    }  
     .description {
     width: 100%;
     margin: 0em;
     padding: 0px 0px 10px;
     text-align-last: center;
-    background: #40434275;
+    background: #1b1e1e9e;
+    border-radius: 0em;
     }
     .contenedor p {
     font-size: 1.05em;
@@ -758,7 +864,8 @@ footer p a {
       height: 420px;
     }
     .contacto p {
-      padding: 1em 1.5em 1em 0em;      
+      padding: 1em 1.5em 1em 0em;  
+      line-height: 1.5em;  
     }
   .contacto label {
     font-size: 1.86rem;
@@ -771,5 +878,19 @@ footer p a {
   }
   #proyectos {
     margin-top: 2em;
+  }
+  .container-skill-icon {
+    margin: 8px;
+  }
+  .col-md-4{
+    width: 100%;
+    float: none;
+    padding: 1em 0em;
+  }
+  .agileits-heading h3 {
+    font-size: 1.86em;
+  }
+  .choose {
+    padding: 1em 0;
   }
 }
