@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -10,7 +9,6 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
-
 <body>
   <header>
     <nav>
@@ -22,7 +20,8 @@
         <span class="icon-navigate_before" id="out_menu_vertical"></span>
         <li><a href="#slide" class="">Inicio</a></li>
         <li><a href="#proyectos" class="">Portafolio</a></li>
-        <li><a href="#content-skill" class="">Habilidades</a></li>
+				<li><a href="#content-skill" class="">Herramientas</a></li>		
+				<li><a href="#about" class="">Habilidades</a></li>
         <li><a href="#curriculum" class="">Curriculum</a></li>
         <li><a href="#contacto" class="">Contáctame</a></li>
       </ul>
@@ -30,7 +29,11 @@
     <div class="slide" id="slide"> 
       <div class="contenedor">
 				<div class="container-photo">
-					 <img class="photo" alt="photo" src="img/photo.jpg" />
+					<div class="line-margin">
+						<div class="box-container-photo">
+							<img alt="photo" src="img/photo.jpg" />
+						</div>
+					</div>
 				</div> 
 				<div class="description">
 					<label>Noely Flores Contreras</label>
@@ -38,11 +41,10 @@
 					<p> Me gustan los desafíos nuevos e innovadores porque puedo poner a prueba todas mis habilidades, superar mis límites
 						y aprender de mis errores. Me encanta programar porque me apasiona ver que mi código va tomando sentido para crear nuevas cosas.
 						<br>
-						Soy responsable, autodidacta y busco generar eficiencia en cada proyecto mediante las metodologías ágiles. Me adapto con facilidad
-						 a trabajos bajo presión. Además soy creativa y siempre tengo la iniciativa de hacer algo diferente.
+						Soy responsable, autodidacta y busco generar eficiencia en cada proyecto mediante las metodologías ágiles, además soy creativa y siempre tengo la iniciativa de hacer algo diferente.
 						<br>
 						Me apasiona la conexión con la naturaleza y los animales, por ello mi objetivo es ayudar a través del código las duras realidades que experimenta un animal y el ecosistema.
-					</p>
+						</p>
 				</div>
 			</div> 
     </div>
@@ -53,16 +55,15 @@
           <label>Portafolio</label><br>
           <p>
             Todos los proyectos fueron desarrollados durante el Bootcamp de Laboratoria - 
-            Lima 2018, las especificaciones podras encontrar en mi cuenta de github.
+            Lima 2018, las especificaciones podrás encontrar en mi cuenta de github.
           </p>
-			</div>
-              
+			</div>              
       <div class="we-focus">
 				<div class="atajos-focus-grids">
 					<div class="focus-border">
 						<div class="focus-layout">
 							<h4>Datadashboard</h4>
-							<p  id="descrition-proyect">Una aplicación que muestra los datos estadísticos del avance académico de las estudiantes de Laboratoria en la plataforma LMS.</p>
+							<p  id="descrition-proyect">Una aplicación que muestra los datos estadísticos del avance académico de las estudiantes de Laboratoria, Lima 2018-01 en la plataforma LMS.</p>
 							<div class="focus-image" id="img-p1">
 								<span class="icon-bookmark">
 										<ul>
@@ -134,11 +135,11 @@
 		</div>	    
     	<div class="contacto" id="content-skill">
         <form action="insertarBuzon" method="post" id="Form_contacto"> 
-  				<label>Habilidades</label><br>              
+				  <label>Herramientas</label><br> 
+				  <p>Hay tanta tecnología por explorar, que no hay excusa para estar aburridos.</p>             
 				</form>
 				<div class="box-container-icon">
 					<div class="list-skill-tech" id="box-tech">
-						<h3>Técnicas</h3>
 						<div class="box-container-skill">
 								<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/ffffff/javascript.png"></div>
 							<p>Javascript</p>
@@ -154,22 +155,14 @@
 						<div class="box-container-skill">
 								<div class="container-skill-icon"><i class="fab fa-vuejs"></i></div>
 								<p>Vue</p>
-						</div>
-						<div class="box-container-skill">
-								<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/ffffff/html-5-filled.png"></div>
-							<p>HTML</p>
-						</div>
-						<div class="box-container-skill">
-								<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/ffffff/css3.png"></div>
-							<p>CCS</p>
-						</div>                    
-						<div class="box-container-skill">
-								<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/ffffff/jquery-filled.png"></div>
-								<p>Jquery</p>
-						</div>                                
+						</div>                              
 						<div class="box-container-skill">
 							<div class="container-skill-icon"><i class="icon-bold"></i></div>
 							<p>Bootstrap</p>
+						</div>
+						<div class="box-container-skill">
+							<div class="container-skill-icon"><img class='icon-skill' src="./img/materialize.png"></div>
+							<p>Materialize</p>
 						</div>
 						<div class="box-container-skill">
 								<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/ffffff/sql.png"></div>
@@ -196,60 +189,56 @@
 							<p>Github</p>
 						</div>
 						<div class="box-container-skill">
-								<div class="container-skill-icon"><img src="https://png.icons8.com/wired/36/ffffff/router.png"></div>
-								<p>CCNA</p>
-							</div>
-					</div>   
-					<div class="list-skill-tech" id="box-soft"> 
-						<h3>Sociales</h3>
-						<div class="box-container-icon-soft">								
-								<div class="box-container-skill-soft">
-										<div class="container-skill-icon"><img src="https://png.icons8.com/metro/36/FFEB3B/brain.png"></div>
-										<p>Autodidacta</p>
-								</div>
-								<div class="box-container-skill-soft">
-										<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/FFEB3B/prize-filled.png"></div>
-										<p>Excelencia</p>
-								</div>
-								<div class="box-container-skill-soft">
-										<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/FFEB3B/light-on.png"></div>
-										<p>Creativa</p>
-								</div> 
-								<div class="box-container-skill-soft">
-										<div class="container-skill-icon"><img src="https://png.icons8.com/windows/36/FFEB3B/time-machine.png"></div>
-										<p>Responsable</p>
-								</div>
-							<div class="box-container-skill-soft">
-								<div class="container-skill-icon"><img src="https://png.icons8.com/metro/36/FFEB3B/hearts.png"></div>
-								<p>Apasionada</p>
-							</div>					
-							<div class="box-container-skill-soft">
-									<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/FFEB3B/venus-symbol-filled.png"></div>
-									<p>Empoderada</p>
-							</div>
-							<div class="box-container-skill-soft">
-									<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/FFEB3B/handshake-filled.png"></div>
-									<p>Compromiso</p>
-							</div>					
-							<div class="box-container-skill-soft">
-									<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/FFEB3B/pagelines-filled.png"></div>
-									<p>Naturalista</p>
-							</div>
-							<div class="box-container-skill-soft">
-								<div class="container-skill-icon"><img src="https://png.icons8.com/ios/36/FFEB3B/puzzle-filled.png"></div>
-								<p>Trabajo en equipo</p>
+							<div class="container-skill-icon"><img class='icon-skill' src="./img/jest.png"></div>
+							<p>Jest</p>
 						</div>
+						<div class="box-container-skill">
+							<div class="container-skill-icon"><img src="https://png.icons8.com/wired/36/ffffff/router.png"></div>
+							<p>CCNA</p>
 						</div>
-					</div> 					
+					</div>				
 				</div>
                  
-      </div>
-      <div class="contacto" id="curriculum">
+	  </div>
+	  <div  class="contacto" id="soft">
+		<div class="choose" id="about">
+			<div class="container-new">
+				<div class="agileits-heading wthree-heading">
+					<h3>Habilidades</h3>
+					<p>Siempre hice algo para lo que no estaba preparada. Creo que esa es la manera en que crecemos.</p>
+				</div>
+				<div class="wthree-choose-grids">
+					<div class="col-md-4 wthree-choose-grid">
+						<i class="fa fa-handshake" aria-hidden="true"></i>
+						<h5>Trabajo en equipo</h5>
+						<p>Compañerismo, asertiva, comprometida, empátia y proactiva.</p>
+					</div>
+					<div class="col-md-4 wthree-choose-grid">
+						<i class="fa fa-clock" aria-hidden="true"></i>
+						<h5>Responsabilidad</h5>
+						<p>La regla de oro para lograr todos mis objetivos es la responsabilidad, resiliencia, exelencia, persistencia.</p>
+					</div>
+					<div class="col-md-4 wthree-choose-grid">
+						<i class="fa fa-heart" aria-hidden="true"></i>
+						<h5>Pasión</h5>
+						<p>Siempre tengo la inspiración para hacer algo que me encanta.</p>
+					</div>
+					<div class="col-md-4 wthree-choose-grid">
+						<i class="fa fa-venus" aria-hidden="true"></i>
+						<h5>Empoderada</h5>
+						<p>Mujer con ganas de romper los paradigmas tecnológicas, capáz de enfrentar a retos.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	  </div>
+      <div class="contacto"  id="curriculum">
 				<form action="insertarBuzon" method="post" id="Form_contacto"> 
 					<label>Curriculum Vitae</label><br>
 					<p>Descargar desde mi cuenta de Google drive <a class="icon-download3" href="https://docs.google.com/document/d/1cs7sCpwsUREqKMeQHRBkm5rYd1RE8u-Xa9hfslwBjlc/edit" target="_blank"></a></p>
 					<div class="box-container-pdf">						
-						<embed src="img/cv.pdf" type="application/pdf" width="800" height="550"></embed>
+						<embed src="img/cv.pdf" type="application/pdf" width="800" height="536"></embed>
 					</div>
 				</form>              
       </div>
