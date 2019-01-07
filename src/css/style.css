@@ -260,7 +260,6 @@ figure{
   float: right;
   }  
   #contacto{
-    background: url(../img/footer.jpg) no-repeat center fixed;
     background-size: cover;
   }
   .contacto form{
